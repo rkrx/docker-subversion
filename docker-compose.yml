@@ -1,0 +1,10 @@
+version: '2.0'
+services:
+  message-queue:
+    build: .
+    restart: always
+    ports:
+      - 80:80
+    volumes:
+      - /srv/subversion/data:/var/svn
+      - /srv/subversion/conf:/etc/svn

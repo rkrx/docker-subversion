@@ -1,5 +1,6 @@
 /*
 !/Dockerfile
+!/docker-compose.yml
 !/build.sh
 !/cleanup.sh
 !/start.sh
