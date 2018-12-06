@@ -1,6 +1,6 @@
 version: '2.0'
 services:
-  message-queue:
+  subversion:
     build: .
     restart: always
     ports:
